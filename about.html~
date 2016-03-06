@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<!-- Website template by freewebsitetemplates.com -->
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Serviços</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="shortcut icon" href="images/pg.png">
+</head>
+<body>
+	<div id="header">
+		<div>
+			<a href="index.html" class="logo">PugSureWoi</a>
+			<ul>
+				<li>
+					<a class="home" href="index.html">Início</a>
+				</li>
+				<li class="current">
+					<a class="about" href="about.html">Serviços</a>
+				</li>
+				<li>
+					<a class="blog" href="blog.html">Parceiros</a>
+				</li>
+				<li>
+					<a class="services" href="services.html">Contatos</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div id="body">
+		<div id="background">
+			<div>
+				<div class="about">
+					<h3>We Have Free Templates for Everyone</h3>
+					<p>
+						Our website templates are created with inspiration, checked for quality and originality and meticulously sliced and coded. What&#39;s more, they&#39;re absolutely free! You can do a lot with them. You can modify them. You can use them to design websites for clients, so long as you agree with the <a href="http://www.freewebsitetemplates.com/about/terms">Terms of Use</a>. You can even remove all our links if you want to.
+					</p>
+					<h3>We Have More Templates for You</h3>
+					<p>
+						Looking for more templates? Just browse through all our <a href="http://www.freewebsitetemplates.com/">Free Website Templates</a> and find what you&#39;re looking for. But if you don&#39;t find any website template you can use, you can try our <a href="http://www.freewebsitetemplates.com/freewebdesign/">Free Web Design</a> service and tell us all about it. Maybe you&#39;re looking for something different, something special. And we love the challenge of doing something different and something special.
+					</p>
+					<h3>Be Part of Our Community</h3>
+					<p>
+						If you&#39;re experiencing issues and concerns about this website template, join the discussion <a href="http://www.freewebsitetemplates.com/forums/">on our forum</a> and meet other people in the community who share the same interests with you.
+					</p>
+					<h3>Template details</h3>
+					<p>
+						Design version 2<br>Code version 3<br>Website Template details, discussion and updates for this <a href="http://www.freewebsitetemplates.com/discuss/puppy/">Puppy Website Template</a>.<br>Website Template design by <a href="http://www.freewebsitetemplates.com/">Free Website Templates</a>.<br>Please feel free to remove some or all the text and links of this page and replace it with your own About content.
+					</p>
+				</div>
+				<span>&#8220;This template is FREE&#8221;.</span>
+			</div>
+		</div>
+		<div id="section">
+			
+		</div>
+	</div>
+	<div id="footer">
+		<div class="logo">
+			<a href="index.html"><img src="images/logo.jpg" alt="Logo"></a>
+		</div>
+			<ul>
+				<li>
+					<a href="index.html">Inínio</a>
+				</li>
+				<li>
+					<a href="about.html">Serviços</a>
+				</li>
+				<li>
+					<a href="blog.html">Parceiros</a>
+				</li>
+				<li>
+					<a href="services.html">Contatos</a>
+				</li>
+			</ul>
+		<p>
+			&copy; Copyright &copy; 2014. Company name all rights reserved
+		</p>
+		<div id="connect">
+			<a href="https://www.facebook.com/anairisbatistaoftalmologiaveterinaria?fref=ts" target="_blank" id="facebook">Facebook</a>
+		</div>
+	</div>
+</body>
+</html>
