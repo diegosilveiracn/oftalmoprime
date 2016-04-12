@@ -1,130 +1,617 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html>
-	<head>
-		<meta charset="UTF-8">
-		<meta name="keywords" content="oftalmologia,veterinária,veterinaria,vet,ana iris,ana iris batista"/>
-		<meta name="author" content="Diego" />
-		<title>Oftalmo Prime</title>
-		<link rel="stylesheet" type="text/css" href="css/style.css">
-		<link rel="shortcut icon" href="images/pg.png">
-		
-		<script>
-  			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  				m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  				})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+<!DOCTYPE html>
+<html lang="en">
 
-  			ga('create', 'UA-54395189-1', 'auto');
-  			ga('send', 'pageview');
-		</script>
-	</head>
+<head>
 
-	<body>
-		<div id="header">
-			<div>
-				<a href="index.html" class="logo"></a>
-				
-				<ul>
-					<li class="current">
-						<a class="principal" href="index.html">Principal</a>
-					</li>
-					<li>
-						<a class="servicos" href="servicos.html">Serviços</a>
-					</li>
-					<li>
-						<a class="consultorio" href="consultorio.html">Consultório</a>
-					</li>
-					<li>
-						<a class="contatos" href="contatos.html">Contatos</a>
-					</li>
-				</ul>
-			</div>
-		</div>
-	
-		<div id="body">
-			<div id="content">		
-					
-				<h1>Bem-vindo!</h1>
-				
-				<div id="background">
-						<img src="images/ana.jpg" alt="Ana Iris Batista" height="300px" />
-				</div>	
-	
-				<p>
-				  	A oftalmologia veterinária se dedica à manutenção e restituição da visão dos animais para garantir sua qualidade de vida.
-				   
-				   A procura pela especialidade vem aumentando por parte dos veterinários e da sociendade, que estão cada vez mais bem informados a respeito do assunto.
-					   
-				   É uma área de atuação fundamental, pois a maioria das doenças oculares é passível de tratamento e recuperação, especialmente quando diagnosticada de forma precoce. Nos casos de problema ocular oriundo de doença sistêmica, o diagnóstico e tratamento precoces podem salvar a vida do animal.
-					   
-				   O diagnóstico desses problemas vem aumentando nos últimos tempos graças ao aprimoramento técnico e o acesso avançado a equipamentos que permitem tratamentos específicos.
-					   
-				   Além disso, com o aumento do tempo de vida, cada vez mais doenças oculares é comum em animais idosos e tem sido diagnosticadas. Todos, especialmente os animais acima de 5 anos de idade, deveriam ser submetidos a uma avaliação de rotina uma vez por ano, a exemplo do que acontece na medicina humana.    
-				</p>			
-				
-				<h2>Doenças Oculares</h2>
-	
-				<p>
-					As doenças oculares mais frequentes são:
-				</p>				
-					
-				<ul>
-					<li>Catarata</li>
-					<li>Glaucoma</li>
-					<li>Uveite</li>
-					<li>Úlcera de córnea</li>
-					<li>Ceratoconjuntivite seca</li>
-					<li>Doenças de pálpebras</li>
-					<li>Doença da retina</li>
-					<li>Dentre outras</li>				
-				</ul>
-	
-				<h2>Sinais Clínicos</h2>				
-					
-				<p>
-	         	Os proprietários e médicos veterinários devem ficar atentos aos principais sinais de problemas oculares que se manifestam como:
-	         </p>
-		         
-				<ul>
-					<li>Olhos fechados ou piscando com frequência</li>
-					<li>Alteração na cor, tamanho ou posição dos olhos</li>
-					<li>Diminuição da visão ou cegueira</li>
-					<li>Alteração de comportamento</li>
-					<li>Dor ocular</li>
-					<li>Vermelhidão</li>
-					<li>Coceira dos olhos</li>
-					<li>Sensibilidade a luz</li>
-					<li>Secreção ocular</li>
-					<li>Manchas ao redo dos olhos</li>
-					<li>Superfície do olho seco</li>
-					<li>Inflamação dos olhos</li>			
-				</ul>	         				
-			</div>
-		</div>
-	
-		<div id="footer">	
-			<ul>
-				<li>
-					<a href="index.html">Principal</a>
-				</li>
-				<li>
-					<a href="servicos.html">Serviços</a>
-				</li>
-				<li>
-					<a href="consultorio.html">Consultório</a>
-				</li>
-				<li>
-					<a href="contatos.html">Contatos</a>
-				</li>
-			</ul>
-			
-			<p>
-				&copy; Copyright 2014.
-			</p>
-	
-			<div id="connect">
-				<a href="https://www.facebook.com/anairisbatistaoftalmologiaveterinaria?fref=ts" target="_blank" id="facebook">Facebook</a>
-			</div>
-		</div>
-	</body>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Oftalmoprime</title>
+
+    <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/freelancer.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="page-top" class="index">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#page-top">Oftalmo Prime</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#portfolio">Fotos</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#about">Sobre</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#contact">Entre em Contato</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#serv">Serviços</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <img class="img-responsive" src="img/2.png" alt="">
+                    <div class="intro-text">
+                        <span class="name">Oftalmo Prime</span>
+                        <hr class="star-light">
+                        <span class="skills">Dra. Ana Íris Batista - Oftalmologista Verinária</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Portfolio Grid Section -->
+    <section id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Fotos</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/7.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/1.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/8.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/4.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/5.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/6.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="success" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Sobre</h2>
+                    <hr class="star-light">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-justify">
+                    <h4>oftalmologia veterinária!</h4>
+                    <p>
+                        A oftalmologia veterinária se dedica à manutenção e restituição da visão dos animais para garantir
+                        sua qualidade de vida. A procura pela especialidade vem aumentando por parte dos veterinários e
+                        da sociendade, que estão cada vez mais bem informados a respeito do assunto. É uma área de atuação
+                        fundamental, pois a maioria das doenças oculares é passível de tratamento e recuperação,
+                        especialmente quando diagnosticada de forma precoce. Nos casos de problema ocular oriundo de
+                        doença sistêmica, o diagnóstico e tratamento precoces podem salvar a vida do animal. O
+                        diagnóstico desses problemas vem aumentando nos últimos tempos graças ao aprimoramento técnico e
+                        o acesso avançado a equipamentos que permitem tratamentos específicos. Além disso, com o aumento
+                        do tempo de vida, cada vez mais doenças oculares é comum em animais idosos e tem sido
+                        diagnosticadas. Todos, especialmente os animais acima de 5 anos de idade, deveriam ser submetidos
+                        a uma avaliação de rotina uma vez por ano, a exemplo do que acontece na medicina humana.
+                    </p>
+                </div>
+                <div class="col-lg-10 col-lg-offset-1 text-justify">
+                    <h4>Doenças Oculares</h4>
+                    <p>
+                        As doenças oculares mais frequentes são:
+                    </p>
+                    <font size="4px"><ul>
+                        <li>Catarata</li>
+                        <li>Glaucoma</li>
+                        <li>Uveite</li>
+                        <li>Úlcera de Córnea</li>
+                        <li>Ceratoconjuntivite Seca</li>
+                        <li>Doença das Pálpebras</li>
+                        <li>Doença da Retina</li>
+                        <li>Dentre Outras</li>
+                    </ul></font>
+                </div>
+                <div class="col-lg-8 col-lg-offset-1 text-justify">
+                    <h4>Sinais Clínicos</h4>
+                    <p>Os proprietários e médicos veterinários devem ficar atentos aos principais sinais de problemas oculares que se manifestam como:</p>
+                    <font size="4px"><ul>
+                        <li>Olhos fechados ou piscando com frequência</li>
+                        <li>Alteração na cor, tamanho ou posição dos olhos</li>
+                        <li>Diminuição da visão ou cegueira</li>
+                        <li>Alteração de comportamento</li>
+                        <li>Dor ocular</li>
+                        <li>Vermelhidão</li>
+                        <li>Coceira dos olhos</li>
+                        <li>Sensibilidade a luz</li>
+                        <li>Secreção ocular</li>
+                        <li>Manchas ao redo dos olhos</li>
+                        <li>Superfície do olho seco</li>
+                        <li>Inflamação dos olhos</li>
+                    </ul></font> 
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Contatos</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
+                    <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
+                    <h5>Em caso de dúvidas ou agendamento de consulta, pode entrar em contato diretamente através dos telefones ou e-mail:<h5>
+                        <hr>
+                    <table>
+                        <tr>
+                            <td><img src="img/oi.png"></td>
+                            <td>+55 (84) 9 8804 9299</td>
+                        </tr>
+                        <tr>
+                            <td><img src="img/tim.png"></td>
+                            <td>+55 (84) 9 9958 1986</td>
+                        </tr>
+                        <tr>
+                            <td><img src="img/whatsapp.png" width="100px"></td>
+                            <td>+55 (84) 9 9958 1986</td>
+                        </tr>
+                        <tr>
+                            <td><img src="img/gmail.png"></td>
+                            <td>oftalmoprime@gmail.com</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="success" id="serv">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Serviços</h2>
+                    <hr class="star-light">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-1">
+                    <h4>As consultas que incluem uma completa avaliação:</h4>                
+                
+                    <font size="4px"><ul>
+                        <li>Pálpebras</li>
+                        <li>Cílios</li>
+                        <li>Vias Lacrimais</li>
+                        <li>Úvea</li>
+                        <li>Cristalino</li>
+                        <li>Seguimento Posterior do Olho</li>
+                    </ul></font> 
+                </div>                      
+                <div class="col-lg-6 col-lg-offset-1">
+                    <h4>Exames Oftalmológicos</h4>
+                    
+                    <font size="4px"><ul>
+                        <li>Testes objetivos e subjetivos para avaliação da visão</li>
+                        <li>Teste lacrimal de schirmer e tempo de quebra do filme lacrimal para avaliação da produção lacrimal</li>
+                        <li>Utilização de corantes específicos</li>
+                        <li>Oftalmoscopia direta e indireta para avaliação do fundo do olho (retina e nervo óptico)</li>
+                        <li>Tonometria de aplanação com tonopen para aferição da pressão intra-ocular</li>  
+                    </ul> </font>              
+                </div>
+                <div class="col-lg-6 col-lg-offset-1">
+                    <h4>Cirurgia de Anexos e Microcirurgia Ocular</h4>
+                    
+                    <font size="4px"><ul>
+                        <li>Biopsias de tumores do bulbo ocular e anexos oculares</li>
+                        <li>Cirurgias de pálpebras e anexos oculares</li>
+                        <li>Reconstrução palpebrais extensas</li>
+                        <li>Reposicionamento da glândula de terceira pálpebra</li>
+                        <li>Microcirurgia em geral</li>
+                        <li>Colocação de gonioimplantes em pacientes com glaucoma</li>
+                        <li>Reconstrução do olho em casos de perfuração ocular</li>
+                        <li>Redução de enoftalmia traumática</li>                               
+                    </ul></font>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center">
+        <div class="footer-above">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col col-md-4">
+                        <h3>Harmony Vet</h3>
+                        <p>Rua São José, 1933, Lagoa Nova 
+                            Natal - RN 
+                            Tel.: +55 84 2020-6896
+                        </p>
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h3>Siga nossa Página no FaceBook</h3>
+                        <ul class="list-inline">
+                            <li>
+                                <a href="https://www.facebook.com/anairisbatistaoftalmologiaveterinaria?fref=ts" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
+                            </li>
+                            <!-- <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-dribbble"></i></a>
+                            </li> -->
+                        </ul>
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h3>About Freelancer</h3>
+                        <p>Freelance is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-below">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        Copyright &copy; Oftalmo Prime 2016
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+    <div class="scroll-top page-scroll visible-xs visible-sm">
+        <a class="btn btn-primary" href="#page-top">
+            <i class="fa fa-chevron-up"></i>
+        </a>
+    </div>
+
+    <!-- Portfolio Modals -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Project Title</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/7.png" class="img-responsive img-centered" alt="">
+                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong><a href="http://startbootstrap.com">April 2014</a>
+                                    </strong>
+                                </li>
+                                <li>Service:
+                                    <strong><a href="http://startbootstrap.com">Web Development</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Project Title</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/1.png" class="img-responsive img-centered" alt="">
+                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong><a href="http://startbootstrap.com">April 2014</a>
+                                    </strong>
+                                </li>
+                                <li>Service:
+                                    <strong><a href="http://startbootstrap.com">Web Development</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Project Title</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/8.png" class="img-responsive img-centered" alt="">
+                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong><a href="http://startbootstrap.com">April 2014</a>
+                                    </strong>
+                                </li>
+                                <li>Service:
+                                    <strong><a href="http://startbootstrap.com">Web Development</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Project Title</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/4.png" class="img-responsive img-centered" alt="">
+                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong><a href="http://startbootstrap.com">April 2014</a>
+                                    </strong>
+                                </li>
+                                <li>Service:
+                                    <strong><a href="http://startbootstrap.com">Web Development</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Project Title</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/5.png" class="img-responsive img-centered" alt="">
+                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong><a href="http://startbootstrap.com">April 2014</a>
+                                    </strong>
+                                </li>
+                                <li>Service:
+                                    <strong><a href="http://startbootstrap.com">Web Development</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Project Title</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/6.png" class="img-responsive img-centered" alt="">
+                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong><a href="http://startbootstrap.com">April 2014</a>
+                                    </strong>
+                                </li>
+                                <li>Service:
+                                    <strong><a href="http://startbootstrap.com">Web Development</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/cbpAnimatedHeader.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/freelancer.js"></script>
+
+</body>
+
 </html>
